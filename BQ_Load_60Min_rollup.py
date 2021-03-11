@@ -9,11 +9,11 @@
 #------------Import Lib-----------------------#
 import apache_beam as beam
 from apache_beam import window
-from apache_beam.transforms.window import FixedWindows
+#from apache_beam.transforms.window import FixedWindows
 from apache_beam.options.pipeline_options import PipelineOptions, StandardOptions
 import os, sys, time
-from apache_beam.runners.dataflow.ptransform_overrides import CreatePTransformOverride
-from apache_beam.runners.dataflow.ptransform_overrides import ReadPTransformOverride
+#from apache_beam.runners.dataflow.ptransform_overrides import CreatePTransformOverride
+#from apache_beam.runners.dataflow.ptransform_overrides import ReadPTransformOverride
 import argparse
 import logging
 from apache_beam.options.pipeline_options import SetupOptions
